@@ -1,0 +1,169 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #f5f5f5;
+    color: #67727A;
+    margin: 0;
+}
+
+h2 {
+    font-size: 250%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2%;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 175%;
+    line-height: 155%;
+    padding: 5% 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 160%;
+    line-height: 150%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+header {
+    background-color: #6991AC;
+    width: 100%;
+    height: 86px;
+}
+
+#header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#logo {
+    margin: 20px;
+    float: left;
+    width: 200px;
+    height: 60px;
+    background: url(../img/RD.png) no-repeat center;
+}
+
+.main-nav {
+    float: right;
+    padding: 25px 20px 0px 0px;
+}
+
+#menu-icon {
+    background: url(../img/nav.png) center;
+    width: 40px;
+    height: 40px;
+    display: hidden;
+}
+
+a:hover#menu-icon {
+    border-radius: 4px 4px 0px 0px;
+}
+
+
+ /* --- Main Navigation --- */
+.main-nav ul {
+    list-style: none;
+}
+
+.main-nav ul li {
+    font-size: 150%;
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-nav ul li a {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+    color:#C3D7DF;
+}
+
+.active {
+    color:#C3D7DF;
+}
+/* --- End Main Navigation --- */
+
+.banner {
+    width: 100%;
+    background-color: #6991AC;
+}
+
+.banner-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.one-fourth {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.one-fourth#html {
+    background-color: #F1AA90;
+}
+
+.one-fourth#css {
+    background-color: #BEB9AD;
+}
+
+.one-fourth#seo {
+    background-color: #AADCD2;
+}
+
+.one-fourth#social {
+    background-color: #A2B2C1;
+}
+
+.one-fourth i {
+    font-size: 500%;
+    color: #F0F0F0;
+    padding: 13% 0 4% 0;
+}
+
+.inner-wrapper-left {
+    float: left;
+    width: 100%;
+    background-color: #C3D7DF;
+}
+
+article {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+article#tablet {
+    background-color: #C3D7Df;
+}
+
+aside {
+    float: right;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+
+aside#tablet {
+    background-color: #A2B1C1;
+}
