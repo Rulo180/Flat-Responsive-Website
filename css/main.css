@@ -17,6 +17,7 @@ h2 {
     text-align: center;
     padding-top: 2%;
     text-transform: uppercase;
+    color: #F5F5F5;
 }
 
 h3 {
@@ -25,6 +26,7 @@ h3 {
     padding: 5% 0;
     font-weight: 400;
     text-transform: uppercase;
+    color: #F5F5F5;
 }
 
 p {
@@ -33,6 +35,7 @@ p {
     padding: 3%;
     text-indent: 2%;
     text-align: justify;
+    color: #F5F5F5;
 }
 
 img {
@@ -153,10 +156,6 @@ article {
     height: auto;
 }
 
-article#tablet {
-    background-color: #C3D7Df;
-}
-
 aside {
     float: right;
     margin: 0 auto;
@@ -164,6 +163,79 @@ aside {
     height: auto;
 }
 
+article#tablet {
+    background-color: #C3D7Df;
+}
+article#mobile {
+    background-color: #BEB9AD;
+}
+
 aside#tablet {
     background-color: #A2B1C1;
+}
+
+aside#desktop {
+    background-color: #F1AA90;
+}
+
+.inner-wrapper-right {
+    float: left;
+    width: 100%;
+    background-color: #C3D7DF;
+}
+
+.inner-wrapper-thirds {
+    float: left;
+    width: 100%;
+    background-color: #AADCD2;
+}
+
+.one-third {
+    width: 33.333333%;
+    text-align: center;
+    float: left;
+}
+
+section#google {
+    background-color: #A2B1C1;
+}
+
+section#marketing {
+    background-color: #BEB9AD;
+}
+
+section#customers {
+    background-color: #AADCD2;
+}
+
+section#smiley {
+    background-color: #AADCD2;
+    padding: 0 0 1%;
+    clear: both;
+}
+
+/* ---Start Footer --- */
+footer {
+    background-color: #6991AC;
+    width: 100%;
+}
+
+footer ul.social{
+    list-style-type: none;
+    text-align: center;
+}
+
+footer ul.social li {
+    display: inline;
+}
+
+footer ul.social i {
+    font-size: 460%;
+    margin: 1%;
+    padding: 5% 5% 5% 4%;
+    color: #C3D7Df;
+}
+
+footer ul.social i:hover {
+    color: #F5F5F5;
 }
